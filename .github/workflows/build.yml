@@ -31,5 +31,5 @@ jobs:
       - name: Опубликовать APK как артефакт
         uses: actions/upload-artifact@v4
         with:
-          name: app-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: app-debug-tv
+          path: app/build/outputs/apk/debug/app-debug-tv.apk
